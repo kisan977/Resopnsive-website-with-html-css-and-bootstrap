@@ -259,7 +259,7 @@ padding-left: 2em;
 .section3 .carousel-item{
 padding-right: 15rem;
 
-}
+}*
 
 .border-radius{
 	width: 60%;
@@ -269,7 +269,7 @@ padding-right: 15rem;
 @media only screen and (max-width: 468px){
 
 .section3 .team{
-	padding: 10vmin 2vmin;
+	padding: 10vmin 5vmin;
 }
 
 
