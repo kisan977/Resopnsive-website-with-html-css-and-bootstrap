@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Rubik&display=swap');
+*{
+	box-sizing: border-box;
+
+
+}
+body{
+
+margin:0;
+padding:0;
+height:100vh;
+width:100vw;
+overflow-x:hidden;
+}
+
+
+
+:root{
+--Acme-font:"Acme",cursive;
+--lobster-font:"Lobster",cursive;
+--Rubik-font:"Rubik",cursive;
+--bggradient:linear-gradient(to bottom,#2193b0,#6dd5ed);
+--light-gray:rgba(255,255,255,0.8);
+
+}
+
+
+
+
+header{
+	overflow-x: hidden;
+	background:var(--bggradient); 
+	background-color: #dd2476;
+	clip-path: -moz-polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
+}
+header a{
+	font-family: var(--Acme-font);
+	font-size:1.2rem;
+	color: whitesmoke;
+
+}
+
+header .nav-item:last-child{
+	padding-right: 3rem;
+}
+header .nav-item{
+	padding: 0.8rem;
+
+}
+
+header .navbar-brand{
+	padding-left: 3rem;
+}
+header .nav-link:hover{
+color: #000;
+}
+
+header .row .col-md-5{
+	padding: 4.2vmin 1.2vmin;
+}
+header .row .col-md-5 img{
+	width: 90%;
+}
+
+
+header .row .col-md-7{
+padding: 22vmin 1vmin;
+padding-bottom: 35vmin;
+font-family: var(--Rubik-font);
+color: whitesmoke;
+}
+
+header .container .row .col-md-7 h6{
+	padding: 1vmin;
+	letter-spacing: 4px;
+	color: #fff;
+}
+
+header .container .row .col-md-7 h1{
+font-size: 3rem;
+font-weight: bold;
+padding: 0.5rem;
+}
+header .container .row .col-md-7 p{
+padding:0.8rem 1.5rem;
+}
+header .container .row .col-md-7 button{
+	border-radius: 30px;
+	font-weight: bold;
+}
+header .container .row .col-md-7 button:hover{
+	background-color: #dd2476;
+	color: #fff;
+}
+
+/*section1*/
+
+.section1{
+	padding:20vmin 0;
+}
+.section1 .row .col-md-6 .pray img{
+
+
+	opacity: 0.9;
+	width: 80%;
+	border-radius: 0.2em;
+
+}
+
+.section1 .row .col-md-6:last-child{
+	position: relative;
+}
+
+.section1 .row .col-md-6 .panel{
+	position: absolute;
+top: 6vmin;
+left: -17vmin;
+border-radius: 3px;
+background-color: #fff;
+text-align: left;
+padding: 13vmin 5vmin 15vmin 10vmin;
+box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+font-family: var(--Rubik-font);
+z-index: 1;
+	}
+
+	.section1 .row .col-md-6 .panel h1{
+		font-weight: bold;
+		padding:0.4em 0;
+		font-size: 2em;
+	}
+
+	.section1 .row .col-md-6 .panel p{
+		font-size: 0.9em;
+		color: rgba(0,0,0,0.5);
+	}
+
+
+	@media (max-width: 480px){
+.section1 .row .col-md-6 .panel h1{
+	padding-left: 1em;
+	}
+.section1 .row .col-md-6 .panel p{
+padding-left: 2em;
+}
+
+.section1 .row .col-md-6 .pray img{
+	margin-right: 2rem;
+}
+
+
+
+.section2{
+	margin-top: 30rem;
+}
+.section2 .numbers .rect{
+	width: 5rem;height: 4rem;
+
+	margin-top: 2rem;
+}
+
+
+
+.section2 .numbers .rect h1{
+	font-size: 1rem;
+}
+
+.section2 .numbers .rect p{
+	font-size: 12px;
+}
+
+.section2 .cover .content h1{
+	font-size: 7vmin;
+}
+.section2 .cover .content p{
+	font-size: 4vmin;
+}
+
+
+
+
+}
+
+ .cover{
+	width: 100%;
+	height: 55vmin;
+	background:url("images/pot.jpg");
+	background-position: -24rem -19rem;
+	background-size:150%;
+	
+	position: relative;
+}
+.cover .content{
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+	width: 100%;
+	padding-top: 19vmin;
+}
+
+.cover .content h1{
+	font-family: var(--Rubik-font);
+	font-size: 6vmin;
+	color: whitesmoke;
+
+}
+.cover .content p{
+	font-family: var(--lobster-font);
+	font-size: 2vmin;
+	color: #e5e5e5;
+}
+
+.numbers .rect{
+	position: relative;
+	z-index: 1;
+	background-color: #fff;
+	width: 15rem;
+	height: 10rem;
+	padding-top: 3.5vmin;
+	margin:1rem;
+	border-radius: .5rem;
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.349);
+}
+.numbers{
+	margin-top: -15vmin;
+}
+.numbers .rect h1{
+	font-size: 4rem;
+	color: tomato;
+}
+.numbers .rect p{
+	font-family: var(--Rubik-font);
+	
+}
+/*section3*/
+
+
+.section3 .container h1{
+	font-size: 6vmin;
+	padding-top: 14vmin;
+}
+
+.section3 .team{
+	padding: 10vmin 8vmin;
+}
+
+.section3 .card{
+	width: 21rem;
+	margin-top: 10vmin;
+}
+.section3 .card .card-text{
+	padding: 0.5em;
+}
+
+.section3 .card .card-body a{
+	font-size: 1.5em;
+	color: blue !important;
+}
+
+.section3 .carousel-item{
+padding-right: 15rem;
+
+}
+
+.border-radius{
+	width: 60%;
+	border-radius: 340px;
+}
+
+@media only screen and (max-width: 468px){
+
+.section3 .team{
+	padding: 10vmin 2vmin;
+}
+
+
+.section3 .container h1{
+	font-size: 2rem;
+
+}
+.section3 .card{
+	width: 18rem;
+}
+
+footer .row .col-md-5{
+	margin-bottom: 2rem;
+}
+header .navbar-brand{
+	padding-left:1rem;
+}
+}
+
+footer{
+	background-color: rgba(0,0,0,0.815);
+	overflow-x: hidden;
+	padding: 12vmin 18vmin;
+}
+footer p span{
+	color: #ff512f;
+	font-weight: 600;
+}
+footer input{
+	border:none !important;
+}
+footer input::placeholder{
+	color: white !important;
+}
+
+.input-group-prepend .input-group-text{
+	background: var(--bggradient);
+	border: none;
+}
+footer .column i{
+	color: #dd2476;
+}
+
+footer .column i+i{
+	padding: 0 0.5em;
+}
+
+
+.navbar-toggler-icon{
+	font-size: 2rem;
+}
